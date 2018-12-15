@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "signalhub": "signalhub listen -p 8080",
-    "start": "signalhub listen -p 8080 & nodemon server.js"
+    "start": "signalhub listen -p 8080 & node server.js"
   },
   "keywords": [],
   "author": "",
