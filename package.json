@@ -1,0 +1,20 @@
+{
+  "name": "WebRtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "signalhub": "signalhub listen -p 8080",
+    "start": "signalhub listen -p 8080 & nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "express": "^4.16.4",
+    "signalhub": "^4.9.0",
+    "simple-peer": "^9.2.0",
+    "webrtc-swarm": "^2.9.0"
+  }
+}
